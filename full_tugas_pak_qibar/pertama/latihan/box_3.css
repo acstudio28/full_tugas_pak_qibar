@@ -1,0 +1,50 @@
+.flag{
+    width: 400px;
+    height: 250px;
+    background-color: black;
+    display: flex; /* anaknya berjejer/masuk semua */
+    border: 1px solid;
+    flex-direction: column; /* atas bawah */
+}
+
+/* px= tidak terlalu besar/lebar */
+/* absolute(mutlak) bisa melawan */
+/* menggunakan idealis = pemberontak */
+/* atas-bawah = column */
+/* kiri-kanan = row */
+
+
+.back_atas{
+    background-color: white;
+    height: 50%;
+    width: 100%;
+}
+
+.back_bawah{
+    background-color: red;
+    height: 50%;
+    width: 100%;
+}
+
+.circle_atas{
+    background-color: red;
+    height: 50px;
+    width: 100px;
+    border: 1px solid;
+    position: absolute;
+    left: 60;
+    top: 82;
+    border-radius: 25px;
+    border-radius: 100px 100px 0px 0px;
+}
+
+.circle_bawah{
+    background-color: white;
+    height: 50px;
+    width: 100px;
+    border: 1px solid;
+    position: absolute;
+    left: 60;
+    top: 133;
+    border-radius: 0px 0px 100px 100px;
+}

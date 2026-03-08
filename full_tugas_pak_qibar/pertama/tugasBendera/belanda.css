@@ -1,0 +1,15 @@
+.belanda {
+  display: flex;
+  flex-direction: column; /* dari atas ke bawah (horizontal stripes)*/
+  width: 480px;
+  height: 320px;
+  border: 2px solid #000;
+}
+
+.garis {
+  flex: 1;
+}
+
+.merah { background: red; } 
+.putih { background: white; }
+.biru { background: blue; } 

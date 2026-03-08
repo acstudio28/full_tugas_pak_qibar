@@ -1,0 +1,15 @@
+.jerman {
+  display: flex;
+  flex-direction: column;
+  width: 480px;
+  height: 320px;
+  border: 2px solid #000;
+}
+
+.garis {
+  flex: 1;
+}
+
+.hitam { background: black; }
+.merah { background: red; }
+.kuning { background: #FFCE00; }

@@ -1,0 +1,35 @@
+.kakek {
+  width: 300px;
+  height: 180px;
+  background: white;
+  position: relative;
+  border: 1px solid black;
+}
+
+.bapak.besar {
+  position: absolute;
+  background: red;
+  width: 60px;
+  height: 180px;
+  left: 120px;
+  top: 0;
+}
+.bapak.besar2 {
+  position: absolute;
+  background: red;
+  width: 300px;
+  height: 60px;
+  top: 60px;
+  left: 0;
+}
+
+.anak.kecil {
+  position: absolute;
+  background: red;
+  width: 20px;
+  height: 20px;
+}
+.tl { top: 30px; left: 40px; }
+.tr { top: 30px; right: 40px; }
+.bl { bottom: 30px; left: 40px; }
+.br { bottom: 30px; right: 40px; }

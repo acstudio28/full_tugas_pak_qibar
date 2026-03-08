@@ -1,0 +1,24 @@
+/* flex terbagi menjadi 2 */
+/* Column dan Row */
+
+/* row horizoltal */
+/* column vertikal */
+/* Mengatur alur menggunakan flex-direction */
+
+.bapak{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    display: flex; /* arahnya menjadi row jika tidak akan menjadi column */
+    color: white; /* warna teks */
+    flex-direction: column; /* mengatur arah alur menjadi column */
+    justify-content: center; /* mengatur posisi tengah secara vertikal */
+}
+
+.anak{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: flex; /* menggunakan flexbox */
+    /* margin: auto; untuk mengatur posisi tengah */
+}
